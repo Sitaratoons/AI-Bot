@@ -26,7 +26,7 @@ async def startcmd(client, message):
     keyboard = InlineKeyboardMarkup([
         [InlineKeyboardButton("• ᴀʙᴏᴜᴛ •", callback_data="about"),
          InlineKeyboardButton("• ʜᴇʟᴘ •", callback_data="help")],
-        [InlineKeyboardButton("♻ ᴅᴇᴠᴇʟᴏᴘᴇʀ ♻", url="https://telegram.me/TechifyRahul")]
+        [InlineKeyboardButton("♻ ᴅᴇᴠᴇʟᴏᴘᴇʀ ♻", url="https://telegram.me/AcxAnime")]
     ])
 
     await client.send_photo(
