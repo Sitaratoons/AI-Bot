@@ -45,7 +45,7 @@ async def handle_button_click(client, callback_query):
             "**✨ --ᴜsᴇs ᴏꜰ ᴄᴏᴍᴍᴀɴᴅs--\n\n• /ask - ɪꜰ ʏᴏᴜ ᴀʀᴇ ᴜsɪɴɢ ᴛʜɪs ʙᴏᴛ ɪɴ ɢʀᴏᴜᴘ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ᴀsᴋ ᴀɴʏᴛʜɪɴɢ\n\nᴇx: `/ask what is AI?`\n\nɴᴏᴛᴇ : ɪɴ ᴘʀɪᴠᴀᴛᴇ ʏᴏᴜ ᴅᴏɴ'ᴛ ɴᴇᴇᴅ ᴛᴏ ᴜsᴇ ᴛʜɪs\n\n• /mode - ᴄʜᴏᴏsᴇ ʏᴏᴜʀ ᴄᴏɴᴠᴇʀsᴀᴛɪᴏɴ sᴛʏʟᴇ**"
         )
         help_keyboard = InlineKeyboardMarkup([
-            [InlineKeyboardButton("👨‍💻  ʀᴇᴘᴏ", url="https://github.com/TechifyBots"),
+            [InlineKeyboardButton("👨‍💻  ʀᴇᴘᴏ", url="https://github.com"),
              InlineKeyboardButton("💥  ᴅᴏɴᴀᴛᴇ", callback_data="donate")],
             [InlineKeyboardButton("ʜᴏᴍᴇ", callback_data="start")]
         ])
