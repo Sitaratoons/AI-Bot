@@ -54,7 +54,7 @@ async def handle_button_click(client, callback_query):
     elif data == "start":
         welcome_message = (
             f"**{callback_query.from_user.mention},\n\n"
-            "Welcome to AI Neura Bot – your advanced AI chatbot.\n\n"
+            "Welcome to Miss Lucy bot – your advanced AI chatbot.\n\n"
             "I’m here to help you with anything you need.\n\n"
             "__Click on 'Help' for more details and discover what I can do for you!__**"
         )
