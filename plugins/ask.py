@@ -160,12 +160,7 @@ async def handle_gemini_mode(client, message):
                     [[InlineKeyboardButton('Close', callback_data='close')]]
                 )
             )
-            await message.reply_text(
-                f"**{message.from_user.mention},** {response.text}",
-                reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton("ʟᴇᴀʀɴ ᴄᴏᴅɪɴɢ 👨‍💻", url="https://techifybots.blogspot.com")]]
-                )
-            )
+            
         else:
             await message.reply_text("⚠️ The AI model couldn't generate a response. Please try again.")
     except Exception as e:
