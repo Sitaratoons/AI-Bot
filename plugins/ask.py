@@ -110,7 +110,12 @@ async def handle_chatgpt_mode(client, message):
                     [[InlineKeyboardButton('Close', callback_data='close')]]
                 )
             )
-            
+            await searching_message.edit_text(
+                f"**{message.from_user.mention},** {response_text}",
+                reply_markup=InlineKeyboardMarkup(
+                    [[InlineKeyboardButton("Updates", url="https://t.me/ST_Rename_Update")]]
+                )
+            )
         else:
             await searching_message.edit_text("⚠️ Could not fetch a valid response. Please try again later.")
     except Exception as e:
@@ -155,7 +160,12 @@ async def handle_gemini_mode(client, message):
                     [[InlineKeyboardButton('Close', callback_data='close')]]
                 )
             )
-            
+            await message.reply_text(
+                f"**{message.from_user.mention},** {response.text}",
+                reply_markup=InlineKeyboardMarkup(
+                    [[InlineKeyboardButton("Updates", url="https://t.me/ST_Rename_Update")]]
+                )
+    )
         else:
             await message.reply_text("⚠️ The AI model couldn't generate a response. Please try again.")
     except Exception as e:
