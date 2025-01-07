@@ -82,11 +82,11 @@ async def handle_button_click(client, callback_query):
 
     elif data == "about":
         about_message = (
-            "**ᴍʏ ɴᴀᴍᴇ : [ᴀɪ ɴᴇᴜʀᴀ ʙᴏᴛ](https://telegram.me/AINeuraBot)\n"
+            "**ᴍʏ ɴᴀᴍᴇ : [Miss Lucy](https://telegram.me/AINeuraBot)\n"
             "ʜᴏsᴛᴇᴅ ᴏɴ : ᴋᴏʏᴇʙ\n"
             "ᴅᴀᴛᴀʙᴀsᴇ : ᴍᴏɴɢᴏᴅʙ\n"
             "ʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ 𝟹\n"
-            "ᴍʏ ᴄʀᴇᴀᴛᴏʀ : [ʀᴀʜᴜʟ](https://telegram.me/callownerbot)**"
+            "ᴍʏ ᴄʀᴇᴀᴛᴏʀ : [ʀᴀʜᴜʟ](https://telegram.me/AcxAnime)**"
         )
         about_keyboard = InlineKeyboardMarkup([
             [InlineKeyboardButton("ʜᴏᴍᴇ", callback_data="start"),
