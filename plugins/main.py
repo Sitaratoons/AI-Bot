@@ -31,7 +31,7 @@ async def startcmd(client, message):
 
     await client.send_photo(
         chat_id=message.chat.id, 
-        photo="https://envs.sh/5e1.jpg", 
+        photo="https://graph.org/file/3e00026a2e8cc8deca8f2-527267c1df0d8eda07.jpg", 
         caption=welcome_message, 
         reply_markup=keyboard
     )
