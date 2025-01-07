@@ -62,7 +62,7 @@ async def handle_button_click(client, callback_query):
         keyboard = InlineKeyboardMarkup([
             [InlineKeyboardButton("• ᴀʙᴏᴜᴛ •", callback_data="about"),
              InlineKeyboardButton("• ʜᴇʟᴘ •", callback_data="help")],
-            [InlineKeyboardButton("♻ ᴅᴇᴠᴇʟᴏᴘᴇʀ ♻", url="https://telegram.me/TechifyRahul")]
+            [InlineKeyboardButton("♻ ᴅᴇᴠᴇʟᴏᴘᴇʀ ♻", url="https://telegram.me/AcxAnime")]
         ])
 
         await edit_message(client, callback_query, welcome_message, keyboard)
