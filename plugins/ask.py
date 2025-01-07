@@ -110,12 +110,7 @@ async def handle_chatgpt_mode(client, message):
                     [[InlineKeyboardButton('Close', callback_data='close')]]
                 )
             )
-            await searching_message.edit_text(
-                f"**{message.from_user.mention},** {response_text}",
-                reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton("ʟᴇᴀʀɴ ᴄᴏᴅɪɴɢ 👨‍💻", url="https://techifybots.blogspot.com")]]
-                )
-            )
+            
         else:
             await searching_message.edit_text("⚠️ Could not fetch a valid response. Please try again later.")
     except Exception as e:
